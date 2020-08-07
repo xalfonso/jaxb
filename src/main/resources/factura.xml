@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autorizacion>
+    <estado>AUTORIZADO</estado>
+    <numeroAutorizacion>0308202001099132737100120020110002230422381406514</numeroAutorizacion>
+    <fechaAutorizacion>2020-08-03 05:34:15</fechaAutorizacion>
+    <comprobante>
+        <estado>AUTORIZADO</estado>
+        <factura id="comprobante" version="1.0.0">
+            <infoTributaria>
+                <ambiente>2</ambiente>
+                <tipoEmision>1</tipoEmision>
+                <razonSocial>TELCONET SA</razonSocial>
+                <nombreComercial>TELCONET SA</nombreComercial>
+                <ruc>0991327371001</ruc>
+                <claveAcceso>0308202001099132737100120020110002230422381406514</claveAcceso>
+                <codDoc>01</codDoc>
+                <estab>002</estab>
+                <ptoEmi>011</ptoEmi>
+                <secuencial>000223042</secuencial>
+                <dirMatriz>AV LUIS ORRANTIA SOLAR 21 Y AV VICTOR HUGO SICOURET</dirMatriz>
+            </infoTributaria>
+            <infoFactura>
+                <fechaEmision>03/08/2020</fechaEmision>
+                <dirEstablecimiento>AV 12 DE OCTUBRE N24660 Y FRANCISCO SALAZAR</dirEstablecimiento>
+                <contribuyenteEspecial>0176</contribuyenteEspecial>
+                <obligadoContabilidad>SI</obligadoContabilidad>
+                <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+                <razonSocialComprador>CORPORACION FAVORITA C.A.</razonSocialComprador>
+                <identificacionComprador>1790016919001</identificacionComprador>
+                <totalSinImpuestos>59.83</totalSinImpuestos>
+                <totalDescuento>0.00</totalDescuento>
+                <totalConImpuestos>
+                    <totalImpuesto>
+                        <codigo>2</codigo>
+                        <codigoPorcentaje>2</codigoPorcentaje>
+                        <baseImponible>68.80</baseImponible>
+                        <valor>8.26</valor>
+                    </totalImpuesto>
+                    <totalImpuesto>
+                        <codigo>3</codigo>
+                        <codigoPorcentaje>3093</codigoPorcentaje>
+                        <baseImponible>59.83</baseImponible>
+                        <valor>8.97</valor>
+                    </totalImpuesto>
+                </totalConImpuestos>
+                <propina>0.00</propina>
+                <importeTotal>77.06</importeTotal>
+                <moneda>DOLAR</moneda>
+                <pagos>
+                    <pago>
+                        <formaPago>20</formaPago>
+                        <total>77.06</total>
+                    </pago>
+                </pagos>
+            </infoFactura>
+            <detalles>
+                <detalle>
+                    <codigoPrincipal>COU</codigoPrincipal>
+                    <descripcion>[COU LINEAS TELEFONIA FIJA] [ NUMEROS TELEFONICOS: 2-3922037, 2-3922038, 2-3922039, 2-3922040] [125.03 MIN CONSUMO CELULAR $15.00][126.60 MIN CONSUMO LOCAL $2.34][124.73 MIN CONSUMO NACIONAL $2.49][1.00 UNI PENSION BASICA $40.00]</descripcion>
+                    <cantidad>1</cantidad>
+                    <precioUnitario>59.83</precioUnitario>
+                    <descuento>0.00</descuento>
+                    <precioTotalSinImpuesto>59.83</precioTotalSinImpuesto>
+                    <impuestos>
+                        <impuesto>
+                            <codigo>2</codigo>
+                            <codigoPorcentaje>2</codigoPorcentaje>
+                            <tarifa>12</tarifa>
+                            <baseImponible>68.80</baseImponible>
+                            <valor>8.26</valor>
+                        </impuesto>
+                        <impuesto>
+                            <codigo>3</codigo>
+                            <codigoPorcentaje>3093</codigoPorcentaje>
+                            <tarifa>15</tarifa>
+                            <baseImponible>59.83</baseImponible>
+                            <valor>8.97</valor>
+                        </impuesto>
+                    </impuestos>
+                </detalle>
+            </detalles>
+            <infoAdicional>
+                <campoAdicional nombre="EMAILCLIENTE">CRFLORESR@FAVORITA.COM	JTOWNSEND@FAVORITA.COM</campoAdicional>
+                <campoAdicional nombre="DIRCLIENTE">VIA A COTOGCHOA AV. GENERAL ENRIQUEZ S N</campoAdicional>
+                <campoAdicional nombre="TELFCLIENTE">099801990	022996500</campoAdicional>
+                <campoAdicional nombre="CIUDADCLIENTE">RUMINAHUI</campoAdicional>
+                <campoAdicional nombre="NUMEROCLIENTE">000223042</campoAdicional>
+                <campoAdicional nombre="CONSUMOCLIENTE">JULIO      2020</campoAdicional>
+                <campoAdicional nombre="LOGINCLIENTE">FAVORITA-POMSQUITELEF-UIO</campoAdicional>
+                <campoAdicional nombre="CONTRATOCLIENTE">CON-001-001-0008525</campoAdicional>
+                <campoAdicional nombre="FPAGOCLIENTE">TRANSFERENCIA</campoAdicional>
+                <campoAdicional nombre="SUBTOTALDOS">59.83</campoAdicional>
+                <campoAdicional nombre="VALORPAGAR">77.06</campoAdicional>
+                <campoAdicional nombre="NOTIFICACION">SU SALDO A LA FECHA ES $0.00 DE NO CONFIRMAR DESACUERDO AL CORREO COBRANZAS_GYE@TELCONET.EC EN EL LAPSO DE 72 HS. DE HABER RECIBIDO LA FACTURA	 SE CONSIDERARA ACEPTADO FORMALMENTE POR UD.</campoAdicional>
+            </infoAdicional>
+        </factura>
+    </comprobante>
+</autorizacion>
