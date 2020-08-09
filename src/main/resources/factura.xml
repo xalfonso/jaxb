@@ -5,7 +5,8 @@
     <fechaAutorizacion>2020-08-03 05:34:15</fechaAutorizacion>
     <comprobante>
         <estado>AUTORIZADO</estado>
-        <factura id="comprobante" version="1.0.0">
+        <!--factura id="comprobante" version="1.0.0">
+            <estado>AUTORIZADO</estado>
             <infoTributaria>
                 <ambiente>2</ambiente>
                 <tipoEmision>1</tipoEmision>
@@ -93,6 +94,6 @@
                 <campoAdicional nombre="VALORPAGAR">77.06</campoAdicional>
                 <campoAdicional nombre="NOTIFICACION">SU SALDO A LA FECHA ES $0.00 DE NO CONFIRMAR DESACUERDO AL CORREO COBRANZAS_GYE@TELCONET.EC EN EL LAPSO DE 72 HS. DE HABER RECIBIDO LA FACTURA	 SE CONSIDERARA ACEPTADO FORMALMENTE POR UD.</campoAdicional>
             </infoAdicional>
-        </factura>
+        </factura-->
     </comprobante>
 </autorizacion>

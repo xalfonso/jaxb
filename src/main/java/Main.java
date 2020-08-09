@@ -5,7 +5,7 @@ import java.io.File;
 
 public class Main {
     public static void main(String[] args) throws JAXBException {
-        File file = new File("/home/eduardo/Desktop/temp/jaxb/src/main/resources/customer.xml");
+        File file = new File("D:\\Trabajo\\kruger\\jaxb example\\jaxb\\src\\main\\resources\\customer.xml");
         JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
 
         Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();

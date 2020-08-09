@@ -2,25 +2,16 @@
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "/comprobante")
+@XmlRootElement(name = "autorizacion")
 public class FacturaRide {
-    String estado;
-
-
-    @XmlElement
-    public String getEstado() {
-        return estado;
-    }
-
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
+    @XmlElement(name = "comprobante")
+    private Comprobante comprobante;
 
 
     @Override
     public String toString() {
         return "FacturaRide{" +
-                "estado='" + estado + '\'' +
+                "comprobante=" + comprobante +
                 '}';
     }
 }
